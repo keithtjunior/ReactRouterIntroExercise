@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body, .snack {
+  width: 100%;
+  height: 100vh;
+}
+.snack {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 1rem;
+  background-color: #2850c9;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav a.active { color: #ff8f34;}
+.nav a.pending { color: #fff; }
